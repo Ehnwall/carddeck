@@ -1,0 +1,516 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+}
+
+body {
+    justify-content: center;
+    /* align-items: center; */
+    display: flex;
+    margin-top: 50px;
+    background-color: black;
+}
+
+section {
+    align-items: center;
+    justify-content: center;
+    height: 400px;
+    width: 300px;
+
+
+}
+
+article {
+    position: absolute;
+    height: 400px;
+    width: 300px;
+    background-color: aquamarine;
+}
+
+p {
+    font-weight: bold;
+    font-size: 20px;
+    font-family: 'Roboto';
+    text-align: center;
+
+}
+
+.card {
+    transform-origin: bottom;
+    border: 2px dotted black;
+    transition: transform 3s;
+    animation: infinite;
+}
+
+.card:nth-child(1) {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: hsl(0, 100%, 50%);
+    z-index: 52;
+
+}
+
+.card:nth-child(2) {
+    background-color: hsl(calc(7), 100%, 50%);
+    z-index: 51;
+}
+
+.card:nth-child(3) {
+    background-color: hsl(calc(7 * 2), 100%, 50%);
+    z-index: 50;
+}
+
+.card:nth-child(4) {
+    background-color: hsl(calc(7 * 3), 100%, 50%);
+    z-index: 49;
+}
+
+.card:nth-child(5) {
+    background-color: hsl(calc(7 * 4), 100%, 50%);
+    z-index: 48;
+}
+
+.card:nth-child(6) {
+    background-color: hsl(calc(7 * 5), 100%, 50%);
+    z-index: 47;
+}
+
+.card:nth-child(7) {
+    background-color: hsl(calc(7 * 5), 100%, 50%);
+    z-index: 46;
+}
+
+.card:nth-child(8) {
+    background-color: hsl(calc(7 *6), 100%, 50%);
+    z-index: 45;
+}
+
+.card:nth-child(9) {
+    background-color: hsl(calc(7 * 7), 100%, 50%);
+    z-index: 44;
+}
+
+.card:nth-child(10) {
+    background-color: hsl(calc(7 * 8), 100%, 50%);
+    z-index: 43;
+}
+
+.card:nth-child(11) {
+    background-color: hsl(calc(7 * 9), 100%, 50%);
+    z-index: 42;
+}
+
+.card:nth-child(12) {
+    background-color: hsl(calc(7 * 10), 100%, 50%);
+    z-index: 41;
+}
+
+.card:nth-child(13) {
+    background-color: hsl(calc(7 * 11), 100%, 50%);
+    z-index: 40;
+}
+
+.card:nth-child(14) {
+    background-color: hsl(calc(7 * 12), 100%, 50%);
+    z-index: 39;
+}
+
+.card:nth-child(15) {
+    background-color: hsl(calc(7 * 13), 100%, 50%);
+    z-index: 38;
+}
+
+.card:nth-child(16) {
+    background-color: hsl(calc(7 * 14), 100%, 50%);
+    z-index: 37;
+}
+
+.card:nth-child(17) {
+    background-color: hsl(calc(7 * 15), 100%, 50%);
+    z-index: 36;
+}
+
+.card:nth-child(18) {
+    background-color: hsl(calc(7 * 16), 100%, 50%);
+    z-index: 35;
+}
+
+.card:nth-child(19) {
+    background-color: hsl(calc(7 * 17), 100%, 50%);
+    z-index: 34;
+}
+
+.card:nth-child(20) {
+    background-color: hsl(calc(7 * 18), 100%, 50%);
+    z-index: 32;
+}
+
+.card:nth-child(21) {
+    background-color: hsl(calc(7 * 19), 100%, 50%);
+    z-index: 31;
+}
+
+.card:nth-child(22) {
+    background-color: hsl(calc(7 * 20), 100%, 50%);
+    z-index: 30;
+}
+
+.card:nth-child(23) {
+    background-color: hsl(calc(7 * 21), 100%, 50%);
+    z-index: 29;
+}
+
+.card:nth-child(24) {
+    background-color: hsl(calc(7 * 22), 100%, 50%);
+    z-index: 28;
+}
+
+.card:nth-child(25) {
+    background-color: hsl(calc(7 * 23), 100%, 50%);
+}
+
+.card:nth-child(26) {
+    background-color: hsl(calc(7 * 24), 100%, 50%);
+    z-index: 26;
+}
+
+.card:nth-child(27) {
+    background-color: hsl(calc(7 * 25), 100%, 50%);
+    z-index: 25;
+}
+
+.card:nth-child(28) {
+    background-color: hsl(calc(7 * 26), 100%, 50%);
+    z-index: 24;
+}
+
+.card:nth-child(29) {
+    background-color: hsl(calc(7 * 27), 100%, 50%);
+    z-index: 23;
+}
+
+.card:nth-child(30) {
+    background-color: hsl(calc(7 * 28), 100%, 50%);
+    z-index: 22;
+}
+
+.card:nth-child(31) {
+    background-color: hsl(calc(7 * 29), 100%, 50%);
+    z-index: 21;
+}
+
+.card:nth-child(32) {
+    background-color: hsl(calc(7 * 30), 100%, 50%);
+    z-index: 20;
+}
+
+.card:nth-child(33) {
+    background-color: hsl(calc(7 * 31), 100%, 50%);
+    z-index: 19;
+}
+
+.card:nth-child(34) {
+    background-color: hsl(calc(7 * 32), 100%, 50%);
+    z-index: 18;
+}
+
+.card:nth-child(35) {
+    background-color: hsl(calc(7 * 33), 100%, 50%);
+    z-index: 17;
+}
+
+.card:nth-child(36) {
+    background-color: hsl(calc(7 * 34), 100%, 50%);
+    z-index: 16;
+}
+
+.card:nth-child(37) {
+    background-color: hsl(calc(7 * 35), 100%, 50%);
+    z-index: 15;
+}
+
+.card:nth-child(38) {
+    background-color: hsl(calc(7 * 36), 100%, 50%);
+    z-index: 14;
+}
+
+.card:nth-child(39) {
+    background-color: hsl(calc(7 * 37), 100%, 50%);
+    z-index: 13;
+}
+
+.card:nth-child(40) {
+    background-color: hsl(calc(7 * 38), 100%, 50%);
+    z-index: 12;
+}
+
+.card:nth-child(41) {
+    background-color: hsl(calc(7 * 39), 100%, 50%);
+    z-index: 11;
+}
+
+.card:nth-child(42) {
+    background-color: hsl(calc(7 * 40), 100%, 50%);
+    z-index: 10;
+}
+
+.card:nth-child(43) {
+    background-color: hsl(calc(7 * 41), 100%, 50%);
+    z-index: 9;
+}
+
+.card:nth-child(44) {
+    background-color: hsl(calc(7 * 42), 100%, 50%);
+    z-index: 8;
+}
+
+.card:nth-child(45) {
+    background-color: hsl(calc(7 * 43), 100%, 50%);
+    z-index: 7;
+}
+
+.card:nth-child(46) {
+    background-color: hsl(calc(7 * 44), 100%, 50%);
+    z-index: 6;
+}
+
+.card:nth-child(47) {
+    background-color: hsl(calc(7 * 45), 100%, 50%);
+    z-index: 5;
+}
+
+.card:nth-child(48) {
+    background-color: hsl(calc(7 * 46), 100%, 50%);
+    z-index: 4;
+}
+
+.card:nth-child(49) {
+    background-color: hsl(calc(7 * 47), 100%, 50%);
+    z-index: 3;
+}
+
+.card:nth-child(50) {
+    background-color: hsl(calc(7 * 48), 100%, 50%);
+    z-index: 2;
+}
+
+.card:nth-child(51) {
+    background-color: hsl(calc(7 * 49), 100%, 50%);
+    z-index: 1;
+}
+
+.card:nth-child(52) {
+    background-color: hsl(calc(7 * 50), 100%, 50%);
+    z-index: 0;
+}
+
+
+
+.deck:hover .card:nth-child(1) {
+    transform: rotate(calc(0deg));
+}
+
+.deck:hover .card:nth-child(2) {
+    transform: rotate(calc(6.9231deg));
+}
+
+.deck:hover .card:nth-child(3) {
+    transform: rotate(calc(6.9231deg * 2));
+}
+
+.deck:hover .card:nth-child(4) {
+    transform: rotate(calc(6.9231deg * 3));
+}
+
+.deck:hover .card:nth-child(5) {
+    transform: rotate(calc(6.9231deg * 4));
+}
+
+.deck:hover .card:nth-child(6) {
+    transform: rotate(calc(6.9231deg * 5));
+}
+
+.deck:hover .card:nth-child(7) {
+    transform: rotate(calc(6.9231deg *6));
+}
+
+.deck:hover .card:nth-child(8) {
+    transform: rotate(calc(6.9231deg * 7));
+}
+
+.deck:hover .card:nth-child(9) {
+    transform: rotate(calc(6.9231deg * 8));
+}
+
+.deck:hover .card:nth-child(10) {
+    transform: rotate(calc(6.9231deg * 9));
+}
+
+.deck:hover .card:nth-child(11) {
+    transform: rotate(calc(6.9231deg * 10));
+}
+
+.deck:hover .card:nth-child(12) {
+    transform: rotate(calc(6.9231deg * 11));
+}
+
+.deck:hover .card:nth-child(13) {
+    transform: rotate(calc(6.9231deg * 12));
+}
+
+.deck:hover .card:nth-child(14) {
+    transform: rotate(calc(6.9231deg * 13));
+}
+
+.deck:hover .card:nth-child(15) {
+    transform: rotate(calc(6.9231deg * 14));
+}
+
+.deck:hover .card:nth-child(16) {
+    transform: rotate(calc(6.9231deg * 15));
+}
+
+.deck:hover .card:nth-child(17) {
+    transform: rotate(calc(6.9231deg * 16));
+}
+
+.deck:hover .card:nth-child(18) {
+    transform: rotate(calc(6.9231deg * 17));
+}
+
+.deck:hover .card:nth-child(19) {
+    transform: rotate(calc(6.9231deg * 18));
+}
+
+.deck:hover .card:nth-child(20) {
+    transform: rotate(calc(6.9231deg * 19));
+}
+
+.deck:hover .card:nth-child(21) {
+    transform: rotate(calc(6.9231deg * 20));
+}
+
+.deck:hover .card:nth-child(22) {
+    transform: rotate(calc(6.9231deg * 21));
+}
+
+.deck:hover .card:nth-child(23) {
+    transform: rotate(calc(6.9231deg * 22));
+}
+
+.deck:hover .card:nth-child(24) {
+    transform: rotate(calc(6.9231deg * 23));
+}
+
+.deck:hover .card:nth-child(25) {
+    transform: rotate(calc(6.9231deg * 24));
+}
+
+.deck:hover .card:nth-child(26) {
+    transform: rotate(calc(6.9231deg * 25));
+}
+
+.deck:hover .card:nth-child(27) {
+    transform: rotate(calc(6.9231deg * 26));
+}
+
+.deck:hover .card:nth-child(28) {
+    transform: rotate(calc(6.9231deg * 27));
+}
+
+.deck:hover .card:nth-child(29) {
+    transform: rotate(calc(6.9231deg * 28));
+}
+
+.deck:hover .card:nth-child(30) {
+    transform: rotate(calc(6.9231deg * 29));
+}
+
+.deck:hover .card:nth-child(31) {
+    transform: rotate(calc(6.9231deg * 30));
+}
+
+.deck:hover .card:nth-child(32) {
+    transform: rotate(calc(6.9231deg * 31));
+}
+
+.deck:hover .card:nth-child(33) {
+    transform: rotate(calc(6.9231deg * 32));
+}
+
+.deck:hover .card:nth-child(34) {
+    transform: rotate(calc(6.9231deg * 33));
+}
+
+.deck:hover .card:nth-child(35) {
+    transform: rotate(calc(6.9231deg * 34));
+}
+
+.deck:hover .card:nth-child(36) {
+    transform: rotate(calc(6.9231deg * 35));
+}
+
+.deck:hover .card:nth-child(37) {
+    transform: rotate(calc(6.9231deg * 36));
+}
+
+.deck:hover .card:nth-child(38) {
+    transform: rotate(calc(6.9231deg * 37));
+}
+
+.deck:hover .card:nth-child(39) {
+    transform: rotate(calc(6.9231deg * 38));
+}
+
+.deck:hover .card:nth-child(40) {
+    transform: rotate(calc(6.9231deg * 39));
+}
+
+.deck:hover .card:nth-child(41) {
+    transform: rotate(calc(6.9231deg * 40));
+}
+
+.deck:hover .card:nth-child(42) {
+    transform: rotate(calc(6.9231deg * 41));
+}
+
+.deck:hover .card:nth-child(43) {
+    transform: rotate(calc(6.9231deg * 42));
+}
+
+.deck:hover .card:nth-child(44) {
+    transform: rotate(calc(6.9231deg * 43));
+}
+
+.deck:hover .card:nth-child(45) {
+    transform: rotate(calc(6.9231deg * 44));
+}
+
+.deck:hover .card:nth-child(46) {
+    transform: rotate(calc(6.9231deg * 45));
+}
+
+.deck:hover .card:nth-child(47) {
+    transform: rotate(calc(6.9231deg * 46));
+}
+
+.deck:hover .card:nth-child(48) {
+    transform: rotate(calc(6.9231deg * 47));
+}
+
+.deck:hover .card:nth-child(49) {
+    transform: rotate(calc(6.9231deg * 48));
+}
+
+.deck:hover .card:nth-child(50) {
+    transform: rotate(calc(6.9231deg * 49));
+}
+
+.deck:hover .card:nth-child(51) {
+    transform: rotate(calc(6.9231deg * 50));
+}
+
+.deck:hover .card:nth-child(52) {
+    transform: rotate(calc(6.9231deg * 51));
+}
